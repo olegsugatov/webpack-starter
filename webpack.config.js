@@ -40,8 +40,8 @@ module.exports = {
     			collapseWhitespace: true
     		},
     		hash: true,
-    		excludeChunks: ['contact']
-    		template: './src/index.html', // Load a custom template (ejs by default see the FAQ for details)
+    		excludeChunks: ['contact'],
+    		template: './src/index.html' // Load a custom template (ejs by default see the FAQ for details)
   		}),
   		new HtmlWebpackPlugin({
     		title: 'Contact Page',

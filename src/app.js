@@ -8,4 +8,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-console.log('Hi, form contact.js!');
+console.log('Hi, from app.js');
