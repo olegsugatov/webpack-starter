@@ -1,3 +1,11 @@
 const css = require('./app.css');
 
-console.log("Hello from app.js");
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
+);
+
+console.log('Hi, form contact.js!');
