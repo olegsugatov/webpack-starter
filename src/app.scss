@@ -1,9 +1,11 @@
+html, body {
+	height: 100%;
+	min-height: 100%;
+	background: url('./img/img.png') center center no-repeat;
+}
+
 body {
-	background: pink;
-	p {
-		color: red;
-	}
 	h1 {
-		color: red;
+		color: deeppink;
 	}
 }
